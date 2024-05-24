@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-box{
+    width: 100%;
+    height: 100vh;
+    background-image:url(./projectbg3.jpg) ;
+    background-size: cover;
+    background-position:center;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.overlay h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.col{
+    width: 1000px;
+    height:100px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+   
+    color: white;
+}
+
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 60%;
+    background-color:rgba(255,255,255 , 0.7) ;
+    border-color:transparent ;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
